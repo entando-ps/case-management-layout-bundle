@@ -1,0 +1,11 @@
+code: cdp_logo
+titles:
+  en: cdp_logo
+  it: cdp_logo
+group: free
+customUi: >
+  <#assign wp=JspTaglibs["/aps-core"]>
+  <a class="navbar-brand" href="<@wp.url page="cdp" />" >
+    <img class="bd-placeholder-img" src="<@wp.resourceURL />bundles/case-management-bundle-29795610/resources/cdppoc/img/cdp.svg"
+  width="100%" height="100%"  />
+  </a>
