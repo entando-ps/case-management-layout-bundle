@@ -6,4 +6,4 @@
 Install command based on temporary docker image
 
 
-ent ecr deploy --repo=docker://davideminnai/case-management-layout-bundle (modificato) 
+ent ecr deploy --repo=docker://davideminnai/case-management-layout-bundle
