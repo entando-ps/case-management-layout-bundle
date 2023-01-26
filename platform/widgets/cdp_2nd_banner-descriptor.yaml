@@ -16,11 +16,11 @@ customUi: >
                   <a class="btn btn-success" href="#">Compila il campo</a>
                   <#else>
                   <@wp.currentPage param="code" var="currentPageVar" />
-                  <a class="btn btn-success" href="<@wp.info key="systemParam" paramName="applicationBaseURL"/>do/login.action?redirectTo=<@wp.url page="${currentPageVar}" />">Area riservata</a>
+                  <a class="btn btn-success" href="<@wp.info key="systemParam" paramName="applicationBaseURL"/>do/login.action?redirectTo=<@wp.url page="${currentPageVar}" />">Accedi area riservata</a>
                   </#if>
               </div>
               <div class="col-md-6  align-self-center">
-                  <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="<@wp.resourceURL />bundles/case-management-bundle-29795610/resources/cdppoc/img/image 1.jpg" />
+                  <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="<@wp.resourceURL />bundles/case-management-layout-bundle-2e042de2/resources/cdppoc/img/image 1.jpg" />
               </div>
           </div>
       </div>
