@@ -1,4 +1,4 @@
-code: cdp_login
+code: cdp_reserved
 parentCode: homepage
 titles:
   en: CDP - POC login
@@ -23,6 +23,12 @@ widgets:
   - code: cdp-login-banner
     config: null
     pos: 3
+  - code: cdp_mock_user
+    config: null
+    pos: 4
+  - code: cdp_mock_admin
+    config: null
+    pos: 5
   - code: cdp_users_login
     config: null
     pos: 9

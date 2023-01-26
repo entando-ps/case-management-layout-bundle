@@ -305,12 +305,12 @@ footer p {
     height:120px;
     width: 50px;
     background-color: #198754;
-    mask: url(/entando-de-app/cmsresources/bundles/case-management-bundle-29795610/resources/cdppoc/img/arrow-up-square-fill.svg) no-repeat center / contain;
-    -webkit-mask: url(/entando-de-app/cmsresources/bundles/case-management-bundle-29795610/resources/cdppoc/img/arrow-up-square-fill.svg) no-repeat center / contain;
+    mask: url(/entando-de-app/cmsresources/bundles/case-management-layout-bundle-2e042de2/resources/cdppoc/img/arrow-up-square-fill.svg) no-repeat center / contain;
+    -webkit-mask: url(/entando-de-app/cmsresources/bundles/case-management-layout-bundle-2e042de2/resources/cdppoc/img/arrow-up-square-fill.svg) no-repeat center / contain;
 }
 .container-login {
     min-height:100vh;
-    background: url(/entando-de-app/cmsresources/bundles/case-management-bundle-29795610/resources/cdppoc/img/registrazione.png) no-repeat center / contain;
+    background: url(/entando-de-app/cmsresources/bundles/case-management-layout-bundle-2e042de2/resources/cdppoc/img/registrazione.png) no-repeat center / contain;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -586,7 +586,7 @@ p.insert-data {
     column-count: 1;
 }
 .login-banner {
-    background-image: url(/entando-de-app/cmsresources/bundles/case-management-bundle-29795610/resources/cdppoc/img/reserved.png);
+    background-image: url(/entando-de-app/cmsresources/bundles/case-management-layout-bundle-2e042de2/resources/cdppoc/img/reserved.png);
     background-size: cover;
     background-position: center;
     min-height:500px;

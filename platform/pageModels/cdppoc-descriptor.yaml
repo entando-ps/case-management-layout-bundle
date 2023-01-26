@@ -126,13 +126,13 @@ template: |-
   <meta name="viewport" content="width=device-width,  user-scalable=no" />
   <link rel="icon" href="${appUrl}favicon.png" type="image/png" />
   <!-- bootstrap styles -->
-  <link href="<@wp.resourceURL />bundles/case-management-bundle-29795610/resources/cdppoc/css/bootstrap.min.css" rel="stylesheet">
+  <link href="<@wp.resourceURL />bundles/case-management-layout-bundle-2e042de2/resources/cdppoc/css/bootstrap.min.css" rel="stylesheet">
   <!-- End bootstrap styles-->
   <!-- Custom CDP page template styles -->
-  <link rel="stylesheet" href="<@wp.resourceURL />bundles/case-management-bundle-29795610/resources/cdppoc/css/cdppoc.css" rel="stylesheet">
+  <link rel="stylesheet" href="<@wp.resourceURL />bundles/case-management-layout-bundle-2e042de2/resources/cdppoc/css/cdppoc.css" rel="stylesheet">
   <!-- End Custom CDP page template styles -->
-  <link rel="stylesheet" href="<@wp.resourceURL />bundles/case-management-bundle-29795610/resources/cdppoc/css/cdppoc.css" rel="stylesheet">
-  <@wp.fragment code="cdp_kc_auth-descriptor" escapeXml=false />
+  <link rel="stylesheet" href="<@wp.resourceURL />bundles/case-management-layout-bundle-2e042de2/resources/cdppoc/css/cdppoc.css" rel="stylesheet">
+  <@wp.fragment code="cdp_kc_auth" escapeXml=false />
   </head>
   <body>
   <header>
@@ -167,8 +167,8 @@ template: |-
   <footer>
   <div class="footer-1st-level">
   <div class="footer-brand">
-  <a href="<@wp.url page="cdp" />">
-   <img class="footer-logo" src="<@wp.resourceURL />bundles/case-management-bundle-29795610/resources/cdppoc/img/cdp.svg" alt="CDP"  />
+  <a href="<@wp.url page="homepage" />">
+   <img class="footer-logo" src="<@wp.resourceURL />bundles/case-management-layout-bundle-2e042de2/resources/cdppoc/img/cdp.svg" alt="CDP"  />
   </a>
   </div>
   <@wp.show frame=11 />
@@ -208,7 +208,7 @@ template: |-
   }
   </script>
   <!-- bootstrap JS -->
-  <script nonce="<@wp.cspNonce />" src="<@wp.resourceURL />bundles/case-management-bundle-29795610/resources/cdppoc/js/bootstrap.bundle.min.js"></script>
+  <script nonce="<@wp.cspNonce />" src="<@wp.resourceURL />bundles/case-management-layout-bundle-2e042de2/resources/cdppoc/js/bootstrap.bundle.min.js"></script>
   <!-- End bootstrap  JS -->
   </body>
   </html>
