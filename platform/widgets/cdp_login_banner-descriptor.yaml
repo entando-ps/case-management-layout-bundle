@@ -1,0 +1,11 @@
+code: cdp_login_banner
+titles:
+  en: cdp_login_banner
+  it: cdp_login_banner
+group: free
+customUi: >
+  <#assign wp=JspTaglibs["/aps-core"]> <div class="px-4 py-5 my-5 text-center
+  login-banner">
+      <h1 class="display-5 fw-bold">Aree Riservate</h1>
+      <p>Sezione delle aree operative di CDP</p>
+  </div>

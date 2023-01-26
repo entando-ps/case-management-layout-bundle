@@ -1,0 +1,28 @@
+- key: CDPPOC_TEXT
+  titles:
+    en: CDP
+    it: CDP
+- key: CDP_ADMINISTRATION
+  titles:
+    en: Entando administration
+    it: Amministrazione Entando
+- key: SIGN_IN
+  titles:
+    en: Sign in
+    it: Entra
+- key: LOG_IN
+  titles:
+    en: Log in
+    it: Accedi
+- key: CDP_USER
+  titles:
+    en: Form area
+    it: Area form
+- key: CDP_ADMIN
+  titles:
+    en: Form management
+    it: Gestione form
+- key: CDP_RISERVATA
+  titles:
+    en: Reserved area
+    it: Area riservata

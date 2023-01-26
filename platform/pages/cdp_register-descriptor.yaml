@@ -1,0 +1,34 @@
+code: cdp_register
+parentCode: homepage
+titles:
+  en: CDP - POC registration
+  it: CDP - POC registration
+pageModel: cdppoc_login
+ownerGroup: free
+joinGroups: []
+displayedInMenu: true
+seo: false
+charset: utf8
+status: published
+widgets:
+  - code: cdp_logo
+    config: null
+    pos: 0
+  - code: cdp_navbar_mock
+    config: null
+    pos: 1
+  - code: cdp_login_kc
+    config: null
+    pos: 2
+  - code: cdp_login_2steps
+    config: null
+    pos: 3
+  - code: cdp_footer_link
+    config: null
+    pos: 11
+  - code: cdp_footer_social
+    config: null
+    pos: 12
+  - code: cdp_footer_link2
+    config: null
+    pos: 13
