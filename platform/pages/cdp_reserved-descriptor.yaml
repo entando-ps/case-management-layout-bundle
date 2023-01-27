@@ -1,8 +1,8 @@
 code: cdp_reserved
 parentCode: homepage
 titles:
-  en: CDP - POC login
-  it: CDP - POC login
+  en: CDP - POC reserved
+  it: CDP - POC Riservata
 pageModel: cdppoc_login
 ownerGroup: free
 joinGroups: []
@@ -20,7 +20,7 @@ widgets:
   - code: cdp_login_kc
     config: null
     pos: 2
-  - code: cdp-login-banner
+  - code: cdp_login_banner
     config: null
     pos: 3
   - code: cdp_mock_user

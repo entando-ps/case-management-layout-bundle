@@ -1,5 +1,5 @@
 code: cdppoc
-description: Template for cdppoc app
+description: Template CDP - POC home
 configuration:
   frames:
     - pos: 0
