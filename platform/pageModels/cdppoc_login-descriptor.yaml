@@ -147,12 +147,12 @@ template: |-
             <#if (Session.currentUser.username = "guest") >
             <@wp.show frame=3 />
             </#if>
-            <@wp.ifauthorized groupName="cdp_admin">
-            <@wp.show frame=4 />
-            </@wp.ifauthorized>
             <@wp.ifauthorized groupName="cdp_user">
-            <@wp.show frame=5 />
+              <@wp.show frame=4 />
             </@wp.ifauthorized>
+              <@wp.ifauthorized groupName="cdp_admin">
+            <@wp.show frame=5 />
+              </@wp.ifauthorized>
             <@wp.show frame=6 />
             <@wp.show frame=7 />
             <@wp.show frame=8 />

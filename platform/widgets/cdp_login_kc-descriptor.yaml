@@ -14,7 +14,7 @@ customUi: |
      <div class="dropdown">
          <#if (Session.currentUser.username != "guest") >
          <button class="btn btn-cdp-navbar dropdown-toggle" type="button" id="cdpdrop" data-bs-toggle="dropdown" aria-expanded="false">
-             <#if (isUserVar?? && isUserVar  && isAdminVar?? && isAdminVar)><img class="cdp-face" src="<@wp.resourceURL />bundles/case-management-layout-bundle-2e042de2/resources/cdppoc/img/logo.png" alt="login">
+             <#if (isUserVar?? && isUserVar  && isAdminVar?? && isAdminVar)><@wp.currentUserProfileAttribute attributeName="fullname"  /> <img class="cdp-face" src="<@wp.resourceURL />bundles/case-management-layout-bundle-2e042de2/resources/cdppoc/img/logo.png" alt="login">
              <#elseif (isUserVar?? && isUserVar)> <@wp.currentUserProfileAttribute attributeName="fullname"  /> <img class="cdp-face" src="<@wp.resourceURL />bundles/case-management-layout-bundle-2e042de2/resources/cdppoc/img/mario.png" alt="login">
              <#elseif (isAdminVar?? && isAdminVar)> <@wp.currentUserProfileAttribute attributeName="fullname"  /> <img class="cdp-face" src="<@wp.resourceURL />bundles/case-management-layout-bundle-2e042de2/resources/cdppoc/img/paolo.png" alt="login">
              </#if>

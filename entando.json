@@ -3,7 +3,7 @@
     "microfrontends": [],
     "svc": [],
     "name": "case-management-layout-bundle",
-    "version": "0.0.2",
+    "version": "0.0.4",
     "description": "case-management-layout-bundle description",
     "type": "bundle"
 }
