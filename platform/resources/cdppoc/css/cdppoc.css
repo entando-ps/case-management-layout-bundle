@@ -5,6 +5,13 @@ body {
     -moz-user-select: none;
     user-select: none;
 }
+.btn {
+    border:none;
+}
+.dropdown-menu {
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+    border: none;
+}
 @media (min-width: 768px) {
     .bd-placeholder-img-lg .bd-placeholder-img {
         font-size: 1.125rem;
@@ -543,6 +550,10 @@ p.insert-data {
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.075);
     border-radius: 4px;
 }
+.cdp-user:hover {
+    transition: 0.55s ease;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
 .cdp-user p.generic {
     font-family: 'Arial';
     font-style: normal;
@@ -552,9 +563,9 @@ p.insert-data {
     display: flex;
     align-self: center;
     text-align: center;
-    margin-bottom:45px;
-    padding: 0 22%;
-    min-height: 90px;
+    margin-bottom: 13px;
+    padding: 10% 13% 0;
+    min-height: 153px;
 }
 .login-actions {
     text-align:center;
@@ -565,6 +576,9 @@ p.insert-data {
     color: #fff;
     font-size: 16px;
     padding: 0.72rem;
+}
+.login-actions a.btn.btn-success {
+    text-decoration-line: none;
 }
 .login-actions a {
     font-family: 'Arial';

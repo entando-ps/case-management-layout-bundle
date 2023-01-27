@@ -30,22 +30,18 @@ customUi: |
              </#if>
              <@wp.ifauthorized permission="enterBackend">
              <li>
-                 <a class="dropdown-item" href="<@wp.info key="systemParam" paramName="applicationBaseURL" />do/main.action?request_locale=<@wp.info key="currentLang" />" class="btn"><@wp.i18n key="ADMINISTRATION" /></a>
+                 <a class="dropdown-item" href="<@wp.info key="systemParam" paramName="applicationBaseURL" />do/main.action?request_locale=<@wp.info key="currentLang" />" class="btn"><@wp.i18n key="CDP_ADMINISTRATION" /></a>
              </li>
              </@wp.ifauthorized>
              <li>
                  <a class="dropdown-item" href="<@wp.url page="cdp_login" />" class="btn"><@wp.i18n key="CDP_RISERVATA" /></a>
              </li>
-
-             <#if (isUserVar?? && isUserVar  && isAdminVar?? && isAdminVar)>
-             <li><a class="dropdown-item" href="<@wp.url page="cdp_user" />" ><@wp.i18n key="CDP_USER" /></a>
-             </li><li><a class="dropdown-item" href="<@wp.url page="cdp_user" />" ><@wp.i18n key="CDP_ADMIN" /></a></li>
-             <#elseif (isUserVar?? && isUserVar)>
-             <li><a class="dropdown-item" href="<@wp.url page="cdp_user" />" ><@wp.i18n key="CDP_USER" /></a></li>
-             <#elseif (isAdminVar?? && isAdminVar)>
-             <li><a class="dropdown-item" href="<@wp.url page="cdp_user" />" ><@wp.i18n key="CDP_USER" /></a></li>
-             <li><a class="dropdown-item" href="<@wp.url page="cdp_admin" />" ><@wp.i18n key="CDP_ADMIN" /></a></li>
-             </#if>
+             
+             <li>
+                 <a class="dropdown-item" href="<@wp.url page="cdp_user" />" >
+                   <@wp.i18n key="CDP_USER" />
+                 </a>
+             </li>
              <li>
                  <a class="dropdown-item" href="<@wp.info key="systemParam" paramName="applicationBaseURL" />do/logout.action" >
                  <@wp.i18n key="LOGOUT" />
