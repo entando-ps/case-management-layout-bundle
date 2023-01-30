@@ -131,7 +131,7 @@ template: |-
         <!-- Custom CDP page template styles -->
         <link rel="stylesheet" href="<@wp.resourceURL />bundles/case-management-layout-bundle-2e042de2/resources/cdppoc/css/cdppoc.css" rel="stylesheet">
         <!-- End Custom CDP page template styles -->
-        <@wp.fragment code="cdp_kc_auth-descriptor" escapeXml=false />
+        <@wp.fragment code="cdp_kc_auth" escapeXml=false />
     </head>
     <body>
         <header>

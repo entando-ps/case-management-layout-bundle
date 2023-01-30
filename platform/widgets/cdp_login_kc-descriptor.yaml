@@ -34,12 +34,8 @@ customUi: |
              </li>
              </@wp.ifauthorized>
              <li>
-                 <a class="dropdown-item" href="<@wp.url page="cdp_login" />" class="btn"><@wp.i18n key="CDP_RISERVATA" /></a>
-             </li>
-             
-             <li>
-                 <a class="dropdown-item" href="<@wp.url page="cdp_user" />" >
-                   <@wp.i18n key="CDP_USER" />
+                 <a class="dropdown-item" href="<@wp.url page="cdp_login" />" class="btn">
+                   <@wp.i18n key="CDP_RISERVATA" />
                  </a>
              </li>
              <li>
