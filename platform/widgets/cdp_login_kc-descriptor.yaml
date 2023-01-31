@@ -30,7 +30,9 @@ customUi: |
              </#if>
              <@wp.ifauthorized permission="enterBackend">
              <li>
-                 <a class="dropdown-item" href="<@wp.info key="systemParam" paramName="applicationBaseURL" />do/main.action?request_locale=<@wp.info key="currentLang" />" class="btn"><@wp.i18n key="CDP_ADMINISTRATION" /></a>
+                 <a class="dropdown-item" href="<@wp.info key="systemParam" paramName="applicationBaseURL" />do/main.action?request_locale=<@wp.info key="currentLang" />" class="btn" target="_blank">
+                    <@wp.i18n key="CDP_ADMINISTRATION" />
+                 </a>
              </li>
              </@wp.ifauthorized>
              <li>
